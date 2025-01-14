@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOUGLAS Baterias</title>
+    <link rel="icon" href="./IMAGEM/5.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./js/javascript.js">
+</head>
+<body class="amarelo" >
+<!-- Navbar com Menu Hambúrguer -->
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <!-- Logo com imagem responsiva -->
+        <a class="navbar-brand" href="#">
+            <img src="IMAGEM/removido-fundo-logo.png" alt="DOUGLAS Baterias" class="logo img-fluid">
+        </a>
+        
+        <!-- Botão do Menu Hambúrguer -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Menu de Navegação -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#about">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#quem-somos">QUEM SOMOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">PRODUTOS E SERVIÇOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#delivery">ENTREGA 24</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTATO</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Header -->
+<!-- Carrossel Fullscreen -->
+<div id="mainCarousel" class="carousel slide main-carousel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="IMAGEM/1.png" class="d-block w-100 h-100" alt="Imagem 1">
+        </div>
+        <div class="carousel-item">
+            <img src="IMAGEM/2.png" class="d-block w-100 h-100" alt="Imagem 2">
+        </div>
+        <div class="carousel-item">
+            <img src="IMAGEM/3.png" class="d-block w-100 h-100" alt="Imagem 3">
+        </div>
+        <div class="carousel-item">
+            <img src="IMAGEM/4.png" class="d-block w-100 h-100" alt="Imagem 3">
+        </div>
+        <div class="carousel-item">
+            <img src="IMAGEM/5.png" class="d-block w-100 h-100" alt="Imagem 3">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+    </button>
+</div>
+
+<!-- Baterias Automotivas Section -->
+<section id="products">
+    <div class="container py-5">
+        <h3><span class="highlight">Baterias Automotivas</span></h3>
+        <p>Douglas Baterias é uma empresa de destaque na cidade de Osasco, consolidada pela excelência no atendimento e pela confiança que conquista a cada cliente. Com um compromisso inabalável com a qualidade, oferecemos as melhores marcas de <span class="highlight">baterias automotivas</span>, com vendas rápidas e entrega eficiente, sempre garantindo a satisfação e a segurança dos nossos clientes.</p>
+    </div>
+</section>
+
+  <!-- Carrossel de Imagens -->
+  <section>
+    <div id="mainCarous" class="carousel slide main-carousel1" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-6 col-md-3 carousel-image-container">
+                        <div class="carousel-image">
+                            <img src="IMAGEM/baterias-heliar.jpg" class="d-block w-100" alt="Imagem 1">
+                            <div class="overlay">
+                                <span class="image-name">Heliar</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 carousel-image-container">
+                        <div class="carousel-image">
+                            <img src="./IMAGEM/BT_ELETAN.jpg" class="d-block w-100" alt="Imagem 2">
+                            <div class="overlay">
+                                <span class="image-name H2">ELETAN</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 carousel-image-container">
+                        <div class="carousel-image">
+                            <img src="./IMAGEM/MOURA-1.jpg" class="d-block w-100" alt="Imagem 3">
+                            <div class="overlay">
+                                <span class="image-name">MOURA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 carousel-image-container">
+                        <div class="carousel-image">
+                            <img src="./IMAGEM/AC DELCO.jpg" class="d-block w-100" alt="Imagem 4">
+                            <div class="overlay">
+                                <span class="image-name">DELCO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-6 col-md-3 carousel-image-container">
+                        <div class="carousel-image">
+                            <img src="./IMAGEM/baterias-erbs.jpg" class="d-block w-100" alt="Imagem 5">
+                            <div class="overlay">
+                                <span class="image-name">ERBS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 carousel-image-container">
+                        <div class="carousel-image">
+                            <img src="./IMAGEM/IMPACT.jpg" class="d-block w-100" alt="Imagem 6">
+                            <div class="overlay">
+                                <span class="image-name">IMPACTA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 carousel-image-container">
+                        <div class="carousel-image">
+                            <img src="./IMAGEM/baterias-prestocar.jpg" class="d-block w-100" alt="Imagem 7">
+                            <div class="overlay">
+                                <span class="image-name">PRESTOCAR</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 carousel-image-container">
+                        <div class="carousel-image">
+                            <img src="./IMAGEM/AC DELCO.jpg" class="d-block w-100" alt="Imagem 8">
+                            <div class="overlay">
+                                <span class="image-name">ELETAN</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-6 col-md-3 carousel-image-container">
+                        <div class="carousel-image">
+                            <img src="./IMAGEM/baterias-heliar.jpg" class="d-block w-100" alt="Imagem 5">
+                            <div class="overlay">
+                                <span class="image-name">HELIAR</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 carousel-image-container">
+                        <div class="carousel-image">
+                            <img src="./IMAGEM/baterias-prestocar.jpg" class="d-block w-100" alt="Imagem 6">
+                            <div class="overlay">
+                                <span class="image-name">PRESTOCAR</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 carousel-image-container">
+                        <div class="carousel-image">
+                            <img src="./IMAGEM/ZETTA.jpg" class="d-block w-100" alt="Imagem 7">
+                            <div class="overlay">
+                                <span class="image-name">ZETTA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 carousel-image-container">
+                        <div class="carousel-image">
+                            <img src="./IMAGEM/BT_ELETAN.jpg" class="d-block w-100" alt="Imagem 8">
+                            <div class="overlay">
+                                <span class="image-name">ELETAN</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarous" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarous" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<!-- Seção de Entrega 24 Horas -->
+<section id="delivery" class="py-5 bg-light bg-image">
+    <div class="container">
+        <h2 class="text-center mb-2">Baterias Automotivas 24 Horas</h2>
+        <p class="text-center fs-5">A Douglas Baterias oferece um serviço 24 horas de entrega e instalação de baterias automotivas, com um atendimento especializado e personalizado. Com experiência e dedicação, me comprometo a realizar a instalação de baterias no seu veículo de forma eficiente e segura, garantindo tranquilidade e confiança a qualquer hora do dia ou da noite..</p>
+        <p class="text-center fs-5">Trabalhamos com as melhores marcas de baterias automotivas.</p>
+        <h4 class="text-center fs-4">Atendimento 24 horas</h4>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="quem-somos" class="py-5 quem-somos " >
+    <div class="container">
+        <h2 class="text-center mb-4">Quem Somos</h2>
+        <p class="text-center small">
+            Douglas Baterias oferece um serviço exclusivo de entrega e retirada de baterias automotivas, com 12 anos de experiência no mercado. Garantimos um atendimento rápido, eficiente e de alta qualidade, sempre focado na sua conveniência. Se você precisar de uma bateria nova, é só chamar o Douglas! Com atendimento 24 horas, eu entrego a bateria no seu local ou vou até você para retirar a antiga. Trabalhamos apenas com as melhores marcas de baterias, oferecendo total confiança e segurança para o seu veículo..
+        </p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 contato  ">
+    <div class="container">
+        <h2 class="text-center mb-4">Contato</h2>
+        <p class="text-center">
+            <strong>Loja 1 (sede própria):</strong><br>
+            Av. Panorâmica, 225 - Bonança, Osasco - SP<br>
+            <strong>Telefones:</strong>  (11) +55 11 91335-3797 (WhatsApp)<br>
+            <strong>Email:</strong> atendimento@Douglas.com.br<br>
+            <strong>Horário:</strong> Segunda à Sábado das 24Horas<br>
+            Domingo: Fechado
+        </p>
+    </div>
+    <div class="text-center mt-4">
+        <a href="index.html" class="btn btn-primary">Voltar para a Página Inicial</a>
+    </div>
+</section>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/+5511913353797" target="_blank" class="whatsapp-float">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="60">
+</a>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-5">
+    <div>
+        <span>Desenvolvido por <strong>Daniel P. D. Silva</strong>, Osasco-SP</span>
+    </div>
+    <div class="my-3">
+        <p>&copy; 2025 <strong>DOUGLAS Baterias</strong>. Todos os direitos reservados.</p>
+    </div>
+    <div>
+        <a href="https://www.facebook.com" class="text-white mx-2" target="_blank" title="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com" class="text-white mx-2" target="_blank" title="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com" class="text-white mx-2" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+    </div>
+    <div class="mt-3">
+        <p><a href="mailto:contato@douglasbaterias.com" class="text-white">Contato: contato@douglasbaterias.com</a></p>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

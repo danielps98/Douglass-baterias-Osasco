@@ -1,0 +1,165 @@
+/* Estilo customizado para aumentar a resolução das imagens */
+.carousel-image img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    .carousel-image img {
+        width: 120%; /* Aumenta a largura da imagem em dispositivos menores */
+        height: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .carousel-image img {
+        width: 110%; /* Aumenta a largura da imagem em dispositivos de tamanho médio */
+        height: auto;
+    }
+}
+
+/* Estilo para garantir que as imagens no carrossel de produtos fiquem bem dimensionadas */
+.carousel-item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Estilo para imagem de fundo da seção "Baterias Automotivas 24 Horas" */
+.bg-image {
+    background-image: url('../IMAGEM/3.png');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    opacity: 0.8;
+    color: #ffc6c6;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f9fa;
+}
+
+.quem-somos {
+    background-color:   #c9c9c971;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #a51d1d;
+
+}
+
+.bg-image {
+    background-image: url('../IMAGEM/3.png');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    opacity: 0.8;
+    color: #e9d708;
+}
+
+
+.contato{
+    background-color: #b59e39;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #665757;
+}
+
+/* Classe para a imagem flutuante do WhatsApp */
+
+
+/* Adiciona o estilo para o ícone do WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    animation: pulsar 1.5s infinite; /* Animação de pulsar */
+}
+
+/* Animação de pulsar */
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1); /* Aumenta o tamanho */
+        opacity: 0.7; /* Diminui a opacidade */
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+/*  logo  */
+/* Estilo para a barra de navegação */
+.navbar {
+    padding: 0.5rem 1rem;
+}
+
+/* Flexbox no container da barra de navegação */
+.container-fluid {
+    display: flex;
+    justify-content: space-between; /* Espaça o logo e o botão hambúrguer nas extremidades */
+    align-items: center;            /* Alinha o logo e o hambúrguer verticalmente no centro */
+}
+
+/* Estilo do logo para torná-lo responsivo */
+.navbar-brand img {
+    width: auto;
+    max-width: 100%;   /* Garante que o logo não ultrapasse 100% do espaço disponível */
+    height: auto;      /* A altura será ajustada automaticamente */
+}
+
+/* Ajuste do logo para telas pequenas */
+@media (max-width: 576px) {
+    .navbar-brand img {
+        max-width: 80px;  /* Logo menor para dispositivos pequenos */
+    }
+}
+
+/* Ajuste para telas médias (tablets, dispositivos de 577px a 992px) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .navbar-brand img {
+        max-width: 100px; /* Logo maior para dispositivos de tamanho médio */
+    }
+}
+
+/* Ajuste para telas grandes */
+@media (min-width: 993px) {
+    .navbar-brand img {
+        max-width: 150px; /* Logo de tamanho normal para telas grandes */
+    }
+}
+
+/* Estilos para os itens do menu */
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #8c5e5e;  /* Cor do texto */
+    padding: 10px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #f8d740; /* Cor de fundo ao passar o mouse sobre o item */
+    color: #a42525;
+}
+
+/* Ajustes para o menu de navegação em telas menores */
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+/* Estilo do botão hambúrguer */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #4579a4;  /* Cor do ícone de menu */
+}
