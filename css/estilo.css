@@ -119,21 +119,21 @@ body {
 /* Ajuste do logo para telas pequenas */
 @media (max-width: 576px) {
     .navbar-brand img {
-        max-width: 80px;  /* Logo menor para dispositivos pequenos */
+        max-width: 150px;  /* Logo menor para dispositivos pequenos */
     }
 }
 
 /* Ajuste para telas médias (tablets, dispositivos de 577px a 992px) */
 @media (min-width: 577px) and (max-width: 992px) {
     .navbar-brand img {
-        max-width: 100px; /* Logo maior para dispositivos de tamanho médio */
+        max-width: 170px; /* Logo maior para dispositivos de tamanho médio */
     }
 }
 
 /* Ajuste para telas grandes */
 @media (min-width: 993px) {
     .navbar-brand img {
-        max-width: 150px; /* Logo de tamanho normal para telas grandes */
+        max-width: 180px; /* Logo de tamanho normal para telas grandes */
     }
 }
 
